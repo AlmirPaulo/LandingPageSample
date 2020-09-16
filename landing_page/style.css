@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   list-style: none;
+   text-decoration: none;
+   line-height: 200%; 
+}
+
+
+body {
+    background: url('sepia.jpg'); 
+}
+
+h1 {
+    font-family: 'Great Vibes';
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Great Vibes';
+    margin-left: 60px;
+
+}
+
+p {
+    font-family: Oswald;
+    margin: 10px;
+    text-align: justify;
+    
+}
+.nav-bar {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.logo {
+    font-family: 'Great Vibes';
+    font-size: 25px;
+    }
+
+ .nav-bar2 ul{
+    display: flex;
+ }
+
+ .nav-bar2 ul li {
+     margin: 0 10px;
+ }
+
+ .nav-bar2 ul li a{
+    color: #fff; 
+    font-family: Oswald;
+    font-size: 25px;
+}
+
+.presentation {
+    display: flex;   
+}
+
+.texto { 
+    color: #fff;
+    text-align: center;
+}
+
+
+.texto h1{ 
+    
+    text-shadow: 2px 2px #000;
+    font-size: 70px;    
+}
+
+.texto p{
+    font-weight: 500px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.btn {
+    color: #fff;
+    font-weight: 600;
+    font-family: Oswald;
+    border-radius: 5px;
+    background-color: #000;
+    border: 5px solid #000;
+    margin: 40px 0 0 100px;
+}
+
+.home{
+    display: flex;
+}
+ 
+.main_photo {
+    background: url('relogio1.jpg');    
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.photo {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #000;
+    margin-left: 30px;
+}
+
+.models {
+    display: flex;
+    
+}
+
+.model2 {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 30px;
+    
+}
+
+.models h1{
+    text-align: center;
+}
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    font-family: Oswald;
+}
+
+
+@media  (max-width: 815px) {
+
+    .model2{
+        flex-wrap: wrap;
+    }
+    .texto {
+        order: 2;
+        width: 50vw;
+        color: #fff;
+        height: auto;
+        position: absolute;
+        right: 100px;
+    }
+    
+    
+    .texto h1{ 
+        text-align: center;
+        text-shadow: 2px 2px #000;
+        font-size: 40px;    
+    }
+    
+    .texto p{
+        font-weight: 500px;
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+ 
+    .photo {
+        margin: 0 10px 0 40px;
+    }
+    .btn {
+        margin: 40px 40px 0 120px;
+    }
+    
+    .nav-bar2 ul li a{
+        color: #fff; 
+        font-family: Oswald;
+        font-size: 15px;
+    }
+
+}   
