@@ -4,7 +4,7 @@
 
 ## Credits
 
-This Webpage was made by Almir Paulo and it's under Creative Commons [License](https://creativecommons.org/licenses/by/4.0/). 
+This Webpage was made by **Almir Paulo** and it's under Creative Commons [License](https://creativecommons.org/licenses/by/4.0/). 
 However, some of the resources I use belongs to others authors. Here are the credits based on the name a gave to each file in this work.
 
 * **sepia.jpg**: sorry, I couldn't find the author. But I found it [here](https://wallpapersafari.com/).
